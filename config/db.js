@@ -1,6 +1,4 @@
 const Sequelize = require("sequelize");
-require('dotenv').config({path:'vars.env'})
-console.log(process.env.DB_NOMBRE)
 
 const db= new Sequelize('pet-business', "root","firY#D#)Qch2",{
     host:"127.0.1.0",
